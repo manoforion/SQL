@@ -1,0 +1,12 @@
+osql -U DBA_MAN_ADMIN -P DB_MAN -S 127.0.0.1 -d DB_MAN -i F:\DBA_MAN\script\CommandExecute.sql -oF:\DBA_MAN\log\CommandExecute.sql.log
+osql -U DBA_MAN_ADMIN -P DB_MAN -S 127.0.0.1 -d DB_MAN -i F:\DBA_MAN\script\CommandLog.sql -oF:\DBA_MAN\log\CommandLog.sql.log
+osql -U DBA_MAN_ADMIN -P DB_MAN -S 127.0.0.1 -d DB_MAN -i F:\DBA_MAN\script\DatabaseIntegrityCheck.sql -oF:\DBA_MAN\log\DatabaseIntegrityCheck.sql.log
+osql -U DBA_MAN_ADMIN -P DB_MAN -S 127.0.0.1 -d DB_MAN -i F:\DBA_MAN\script\DB_MAN_ADD_CONFIG.sql -oF:\DBA_MAN\log\DB_MAN_ADD_CONFIG.sql.log
+osql -U DBA_MAN_ADMIN -P DB_MAN -S 127.0.0.1 -d DB_MAN -i F:\DBA_MAN\script\DB_MAN_ConvertTableToHtml_include.sql -oF:\DBA_MAN\log\DB_MAN_ConvertTableToHtml_include.sql.log
+osql -U DBA_MAN_ADMIN -P DB_MAN -S 127.0.0.1 -d DB_MAN -i F:\DBA_MAN\script\DB_MAN_Gen_AuditLevel.sql -oF:\DBA_MAN\log\DB_MAN_Gen_AuditLevel.sql.log
+osql -U DBA_MAN_ADMIN -P DB_MAN -S 127.0.0.1 -d DB_MAN -i F:\DBA_MAN\script\DB_MAN_KILL_ALL.sql -oF:\DBA_MAN\log\DB_MAN_KILL_ALL.sql.log
+osql -U DBA_MAN_ADMIN -P DB_MAN -S 127.0.0.1 -d DB_MAN -i F:\DBA_MAN\script\DB_MAN_SHOW_NOTIF.sql -oF:\DBA_MAN\log\DB_MAN_SHOW_NOTIF.sql.log
+osql -U DBA_MAN_ADMIN -P DB_MAN -S 127.0.0.1 -d DB_MAN -i F:\DBA_MAN\script\DB_MAN_TEMPLATE_MAIL.sql -oF:\DBA_MAN\log\DB_MAN_TEMPLATE_MAIL.sql.log
+osql -U DBA_MAN_ADMIN -P DB_MAN -S 127.0.0.1 -d DB_MAN -i F:\DBA_MAN\script\DB_MAN_VALIDATE_CONFIG.sql -oF:\DBA_MAN\log\DB_MAN_VALIDATE_CONFIG.sql.log
+osql -U DBA_MAN_ADMIN -P DB_MAN -S 127.0.0.1 -d DB_MAN -i F:\DBA_MAN\script\DB_MAN_WriteStringToFile.sql -oF:\DBA_MAN\log\DB_MAN_WriteStringToFile.sql.log
+osql -U DBA_MAN_ADMIN -P DB_MAN -S 127.0.0.1 -d DB_MAN -i F:\DBA_MAN\script\IndexOptimize.sql -oF:\DBA_MAN\log\IndexOptimize.sql.log

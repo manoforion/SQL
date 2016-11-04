@@ -1,0 +1,5 @@
+open firewall.securitysend.org 
+friedrich
+kill.,2005
+dir /friedrich 
+quit 
